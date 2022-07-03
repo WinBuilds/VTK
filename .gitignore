@@ -1,21 +1,21 @@
-# Do not add ExternalData module staging files
-.ExternalData*
-
-# Exclude compiled Python objects.
+*.a
+*.desktop
+*.lnk
+*.o
 *.pyc
 *.pyo
-__pycache__/
-
-# Exclude OS X .DS_Store files.
-.DS_Store
-
-# Exclude some Xcode stuff.
-xcuserdata
-project.xcworkspace
-
-# Exclude VSCode settings and configuration folder
+*.so
+*.url
 *.vscode*
-
-# Exclude Visual Studio stuff
-.vs*
+.DS_Store
+.ExternalData*
+.vs
 CMakeSettings.json
+Debug
+GeneratedFiles
+Release
+__pycache__/
+build*
+project.xcworkspace
+x64/
+xcuserdata
